@@ -19,12 +19,12 @@ body {
 }
 
 #content {
-	padding-bottom: 3em; /* Height of the footer element */
+	padding-bottom: 8em; /* Height of the footer element */
 }
 
 #footer {
 	width: 100%;
-	height: 3em;
+	height: 8em;
 	margin: 0;
 	position: absolute;
 	bottom: 0;
@@ -68,8 +68,17 @@ p{
 	font-size: 13px;
 }
 
-button {
+button{
 	transition: all 0.1s ease-in-out;
+}
+
+hr{
+	margin-left: 2em;
+	margin-right: 2em;
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .navbar{
@@ -105,6 +114,11 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 1em;
+}
+
+.detail{
+	padding: 1em;
 }
 
 .isolate-1 {

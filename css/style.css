@@ -137,6 +137,16 @@ button {
 	position: relative;
 }
 
+
+.description-card{
+	padding: 1em;
+	margin-bottom: 2em;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
 .text-max-w{
 	max-width: 12em;
 }

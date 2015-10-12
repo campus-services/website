@@ -1,0 +1,267 @@
+body {
+	font-family: 'Roboto';
+	margin: 0;
+	padding: 0;
+	height:100%;
+	line-height: 1.6;
+	background-attachment: fixed;
+
+	min-height: 100vh;
+	background-image: url("../img/telegrambg.jpg");
+	background-size: 500px;
+	background-repeat: repeat;
+}
+
+#wrapper {
+	height: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+
+#content {
+	padding-bottom: 6em; /* Height of the footer element */
+}
+
+#footer {
+	width: 100%;
+	height: 6em;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+h1{
+	font-family: 'Roboto';
+	font-weight: 300;
+	padding: .5em;
+	width: auto;
+	font-size: 2em;
+	margin: 0;
+}
+
+h2{
+	font-family: 'Roboto';
+	font-weight: 400;
+	padding: .5em 0 .5em 0;
+	width: auto;
+	font-size: 1.5em;
+	margin: 0;
+}
+
+h3{
+	font-family: 'Roboto';
+	font-weight: 400;
+	padding: .5em;
+	width: auto;
+	font-size: 1.1em;
+	margin: 0;
+}
+
+p{
+	padding: 0;
+	font-family: 'Roboto';
+	font-weight: 200;
+	width: auto;
+	font-size: 1em;
+	margin: 0;
+	font-size: 16px;
+}
+
+button{
+	transition: all 0.1s ease-in-out;
+}
+
+hr{
+	margin-left: 2em;
+	margin-right: 2em;
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar{
+	position: relative;
+	margin-top: 0;
+}
+
+
+.logo{
+	width: 100%;
+	max-width: 400px;
+	margin: 2em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.white{
+	background-color: white;
+}
+
+
+.titles{
+	text-align: center;
+}
+
+.title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: .3em;
+}
+
+.detail{
+	padding: 1em;
+	padding-bottom: 0;
+	font-weight: 400;
+}
+
+.isolate-1 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.isolate-2 {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.isolate-3 {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.card{
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+.bot-card{
+	padding: 1em;
+	margin-bottom: 2em;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 14em;
+	position: relative;
+}
+
+
+.description-card{
+	padding: 1em;
+	margin-bottom: 2em;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+.text-max-w{
+	max-width: 12em;
+}
+
+@media screen and (min-width: 35.5em){
+	.bot-card{
+		margin-right: 1em;
+		margin-left: 1em;
+	}
+	.title{
+		justify-content: left;
+	}
+}
+
+@media screen and (min-width: 48em){
+		.logo{
+		margin: 2em;
+	}
+}
+
+.shadow-1{
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
+}
+
+.shadow-2{
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.15);
+}
+
+
+.shadow-3{
+	box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.15);
+}
+
+.no-shadow{
+	text-shadow: 0 0;
+}
+
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-select {
+    background: #7abce0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button-select:hover {
+    background: #5dc390;
+    color: white;
+}
+
+.button-select:active {
+    background: #57ad82;
+    color: white;
+    box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.15);
+}
+
+.card-line{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: .5em;
+}
+
+
+.disi-line{
+	background-color: rgb(75, 15, 153);
+}
+
+.dii-line{
+	background-color: rgb(255, 102, 0);
+}
+
+.dicam-line{
+	background-color: rgb(0, 102, 102);
+}
+
+.lettere-line{
+	background-color: rgb(153, 51, 51);
+}
+
+.giuri-line{
+	background-color: rgb(0, 102, 204);
+}
+
+.socio-line{
+	background-color: rgb(197, 84, 200);
+}
+
+.eco-line{
+	background-color: rgb(204, 153, 51);
+}
+
+.sticker{
+	width: 100%;
+	max-width: 200px;
+	margin: 1em auto 2em auto;
+}

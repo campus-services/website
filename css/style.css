@@ -260,6 +260,10 @@ hr{
 	background-color: rgb(204, 153, 51);
 }
 
+.cogsci-line{
+	background-color: rgb(98, 37, 69);
+}
+
 .sticker{
 	width: 100%;
 	max-width: 200px;
